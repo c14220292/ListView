@@ -5,10 +5,16 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:weightSum="11"
+    android:weightSum="12"
     android:orientation="vertical"
     tools:context=".MainActivity">
-    
+
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/sv1" />
+
     <ListView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
