@@ -54,7 +54,7 @@ class MainActivity : AppCompatActivity() {
             lvAdapter.notifyDataSetChanged()
         }
 
-        var _searchvw = findViewById<SearchView>(R.id.sv1)
+        val _searchvw = findViewById<SearchView>(R.id.sv1)
         _searchvw.setOnQueryTextListener(object : OnQueryTextListener,
             SearchView.OnQueryTextListener {
             override fun onQueryTextSubmit(query: String?): Boolean {
